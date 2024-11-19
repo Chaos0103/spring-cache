@@ -1,0 +1,13 @@
+### Item 단건 조회
+GET http://localhost:8080/items/1
+
+### Item 다중 조회
+GET http://localhost:8080/items
+
+### Item 가격 변경
+PATCH http://localhost:8080/items/1
+Content-Type: application/json
+
+{
+  "price": 1200000
+}
